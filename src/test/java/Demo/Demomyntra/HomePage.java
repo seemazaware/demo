@@ -20,6 +20,7 @@ import org.testng.annotations.Test;
 
 import resource.base;
 
+//myntra
 public class HomePage extends resource.base
 {
 	public WebDriver driver;
