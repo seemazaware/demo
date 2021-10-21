@@ -1,0 +1,9 @@
+21:02:44.420 [main] INFO  resource.base - Final price of the product
+10:11:56.648 [main] INFO  resource.base - Initialize driver
+10:11:59.205 [main] INFO  resource.base - hiting Login url
+10:11:59.589 [main] INFO  resource.base - Login complete
+10:12:12.663 [main] INFO  resource.base - product is searched
+10:12:17.218 [main] INFO  resource.base - Select Checkbox
+10:12:17.360 [main] INFO  resource.base - mouse action
+10:12:18.681 [main] INFO  resource.base - Go to wishlist
+10:12:18.902 [main] INFO  resource.base - Product Size
