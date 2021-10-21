@@ -14,6 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -90,17 +91,16 @@ public class HomePage extends resource.base
 		AddToBag a =new AddToBag(driver);
 		Thread.sleep(5000);
 	    a.validtion();
-		
 	    log.info("validation");
 	    System.out.println("product in Add to cart");   
 	    return;
 
     }
 	
-//	@AfterTest
-//	public void close()
-//	{
-//		driver.close();
-//	}	
+	@AfterTest
+	public void close()
+	{
+		driver.close();
+	}	
 	
 }
